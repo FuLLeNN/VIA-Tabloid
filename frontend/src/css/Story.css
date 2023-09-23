@@ -1,0 +1,35 @@
+.story-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+
+  .story-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .story-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .story-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .story-loading {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .dateOwner-container{
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+    color: #777;
+    font-size: 13px;
+  }

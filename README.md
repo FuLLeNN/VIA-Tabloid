@@ -1,4 +1,4 @@
-# VIA Tabloid Application - Assignment
+# VIA Tabloid Application
 
 ## Description
 

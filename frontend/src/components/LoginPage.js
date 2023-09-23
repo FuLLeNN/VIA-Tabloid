@@ -1,15 +1,36 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from React Router
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 
 function LoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSignIn = (e) => {
+  const handleSignIn = async (e) => {
     e.preventDefault();
-    console.log('User->', username);
-    console.log('Pass=>', password);
+    const apiEndpoint = ''; 
+    try {
+      const response = await fetch(apiEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          username,
+          password,
+        }),
+      });
+      
+      if (response.ok) {
+        console.log('Login succesful');
+        //reedirect
+      } else {
+        console.error('Login failed');
+        //show error on screen
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
 
   return (
