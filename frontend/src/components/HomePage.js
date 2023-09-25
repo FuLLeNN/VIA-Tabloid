@@ -6,8 +6,9 @@ function HomePage() {
     return (
         <div className='container'>
             <Navbar />
-            <Story/>
             <div>HomePage</div>
+            <Story/>
+            
         </div>
 
     )

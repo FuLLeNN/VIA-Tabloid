@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.postgresql:postgresql:your-postgresql-version">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/your-postgresql-version/postgresql-your-postgresql-version.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/your-postgresql-version/postgresql-your-postgresql-version-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/your-postgresql-version/postgresql-your-postgresql-version-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
